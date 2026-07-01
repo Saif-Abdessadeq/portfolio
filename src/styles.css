@@ -180,6 +180,34 @@
     transition: color 0.2s, border-color 0.2s;
   }
   .hero-cta:hover { color: var(--accent-dark); border-color: var(--accent-dark); }
+  .hero-actions {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  .hero-cta-download {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+    font-size: 0.78rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--paper);
+    background: var(--ink);
+    text-decoration: none;
+    padding: 0.85rem 1.4rem;
+    border: 1px solid var(--ink);
+    transition: background 0.2s, color 0.2s, border-color 0.2s;
+  }
+  .hero-cta-download:hover {
+    background: var(--accent-dark);
+    border-color: var(--accent-dark);
+  }
+  .hero-cta-download svg {
+    width: 13px; height: 13px;
+    flex-shrink: 0;
+  }
   .hero-right {
     padding: 8rem 3rem 4rem 3rem;
     display: flex;
