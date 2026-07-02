@@ -513,17 +513,17 @@
   }
   .contact-link:hover { color: var(--accent-dark); }
   .contact-link span { color: var(--muted); font-size: 0.78rem; }
-  .contact-right {
+  .quote {
     padding: 2.5rem;
     border: 0.5px solid var(--line);
     background: rgba(0,0,0,0.02);
   }
-  .contact-right p {
+  .quote p {
     font-family: var(--serif);
-    font-size: 1.05rem;
+    font-size: 1.3rem;
     font-style: italic;
     color: var(--muted);
-    line-height: 1.7;
+    line-height: 1.5;
   }
 
   /* FOOTER */
