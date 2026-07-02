@@ -1,7 +1,7 @@
 :root {
     --ink: #0e0e0e;
     --paper: #f4f1eb;
-    --muted: #7a7570;
+    --muted: #242322;
     --accent: #c8a96e;
     --accent-dark: #9c7d45;
     --line: rgba(0,0,0,0.1);
@@ -535,6 +535,14 @@
     align-items: center;
   }
   footer p { font-size: 0.75rem; color: var(--muted); letter-spacing: 0.06em; }
+  .footer-icons { display: flex; gap: 2rem; align-items: center; }
+  .footer-icon {
+    display: inline-flex;
+    color: var(--muted);
+    transition: color 0.2s;
+  }
+  .footer-icon:hover { color: var(--ink); }
+  .footer-icon svg { width: 20px; height: 20px; fill: currentColor; }
 
   /* MOBILE */
     @media (max-width: 768px) {
